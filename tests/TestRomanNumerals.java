@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestRomanNumerals {
 
 	@Test
-	public void test_one() {
+	public void test_1() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -13,11 +13,10 @@ public class TestRomanNumerals {
 		
 		assertEquals(1, romanNumerals.convertToInteger(numeral));
 		
-		//fail("Not yet implemented");
 	}
 	
 	@Test
-	public void test_two() {
+	public void test_2() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -28,7 +27,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_three() {
+	public void test_3() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -38,7 +37,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_four() {
+	public void test_4() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -48,7 +47,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_five() {
+	public void test_5() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -58,7 +57,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_six() {
+	public void test_6() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -68,7 +67,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_seven() {
+	public void test_7() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -78,7 +77,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_nine() {
+	public void test_9() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -88,7 +87,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_ten() {
+	public void test_10() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -98,7 +97,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_twenty() {
+	public void test_20() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -108,7 +107,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_fourty() {
+	public void test_40() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -118,7 +117,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_fifty() {
+	public void test_50() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -128,7 +127,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_sixty() {
+	public void test_60() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -138,7 +137,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_ninty() {
+	public void test_90() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -148,7 +147,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_hundred() {
+	public void test_100() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -158,7 +157,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_twohundred() {
+	public void test_200() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -168,7 +167,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_fourhundred() {
+	public void test_400() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -178,7 +177,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_fivehundred() {
+	public void test_500() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -188,7 +187,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_ninehundred() {
+	public void test_900() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -198,7 +197,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_thousand() {
+	public void test_1000() {
 		
 		RomanNumerals romanNumerals = new RomanNumerals();
 		
@@ -227,4 +226,133 @@ public class TestRomanNumerals {
 		assertEquals(2014, romanNumerals.convertToInteger(numeral));
 	}
 
+	@Test
+	public void test_iiii() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "IIII";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_xxxx() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "XXXX";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_cccc() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "CCCC";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_mmmm() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "MMMM";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_vv() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "VV";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_ll() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "LL";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_dd() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "DD";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_il() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "IL";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_ic() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "IC";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_id() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "ID";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_im() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "IM";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_xd() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "XD";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral));
+	}
+	
+	@Test
+	public void test_xm() {
+		
+		RomanNumerals romanNumerals = new RomanNumerals();
+		
+		String numeral = "XM";
+		
+		assertEquals(0, romanNumerals.convertToInteger(numeral)); 
+	}
 }
